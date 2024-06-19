@@ -1,0 +1,98 @@
+body{
+    background: linear-gradient(blue, lightblue);
+    font-family: Arial;
+    height: 140vh;
+}
+.meni{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.meni a {
+    text-decoration: none;
+    font-size: 30px;
+    font-variant: all-petite-caps;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    box-shadow: inset 3px 3px 5px darkblue, inset -3px -3px 5px darkblue;
+    transition: all 0.2s ease;
+}
+.meni a:hover{
+    font-size: 35px;
+    padding: 10px 50px 10px 50px;
+}
+.pocetna{
+    display: flex;
+    justify-content: end;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.pocetna a{
+    text-decoration: none;
+    color: black;
+}
+.pocetna a:hover{
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.5);
+    padding: 5px;
+    transition: all 0.2s ease;
+}
+.za_mene{
+    margin-top: 160px;
+    margin-left: 200px;
+    width: 400px;
+    text-align: justify;
+    font-size: 18px;
+}
+.kosarka{
+    padding-top: 150px;
+    padding-left: 305px;
+    display: flex;
+}
+.kosarka img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.kosarka p{
+    padding-left: 20px;
+    width: 600px;
+    text-align: center;
+    align-content: center;
+    line-height: 25px;
+}
+.teretana{
+    padding-top: 50px;
+    padding-left: 305px;
+    display: flex;
+}
+.teretana img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.teretana p{
+    padding-right: 20px;
+    width: 600px;
+    text-align: center;
+    align-content: center;
+    line-height: 25px;
+}
+.formula{
+    padding-top: 50px;
+    padding-left: 305px;
+    display: flex;
+}
+.formula img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.formula p{
+    padding-left: 20px;
+    width: 600px;
+    text-align: center;
+    align-content: center;
+    line-height: 25px;
+}

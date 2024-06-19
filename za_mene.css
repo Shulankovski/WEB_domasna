@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(blue, lightblue);
+    font-family: Arial;
+    height: 100vh;
+}
+.meni{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.meni a {
+    text-decoration: none;
+    font-size: 30px;
+    font-variant: all-petite-caps;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    box-shadow: inset 3px 3px 5px darkblue, inset -3px -3px 5px darkblue;
+    transition: all 0.2s ease;
+}
+.meni a:hover{
+    font-size: 35px;
+    padding: 10px 50px 10px 50px;
+}
+.pocetna{
+    display: flex;
+    justify-content: end;
+    padding-top: 80px;
+    padding-right: 20px;
+}
+.pocetna a{
+    text-decoration: none;
+    color: black;
+}
+.pocetna a:hover{
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.5);
+    padding: 5px;
+    transition: all 0.2s ease;
+}
+.za_mene{
+    margin-top: 160px;
+    margin-left: 200px;
+    width: 400px;
+    text-align: justify;
+    font-size: 18px;
+}
+.slika img{
+    width: 600px;
+    height: 400px;
+    padding-left: 700px;
+    margin-top: -375px;
+}
+img{
+    border-radius: 20px;
+}

@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(blue, lightblue);
+    height: 100vh;
+    font-family: Arial;
+}
+.meni{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom:  30px;
+    border-bottom-style: solid;
+}
+.meni a {
+    text-decoration: none;
+    font-size: 30px;
+    font-variant: all-petite-caps;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    box-shadow: inset 3px 3px 5px darkblue, inset -3px -3px 5px darkblue;
+    transition: all 0.2s ease;
+}
+.meni a:hover{
+    font-size: 35px;
+    padding: 10px 50px 10px 50px;
+}
+.glaven_del{
+    margin-top: 250px;
+    font-size: 23px;
+    text-align: center;
+}
+.zdravo{
+    display: block;
+    font-size: 50px;
+}
+.kontakt ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 245px;
+}
+.kontakt li:first-of-type img{
+    width: 50px;
+    height: 50px;
+}
